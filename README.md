@@ -20,6 +20,19 @@ To run this project, you first need to make sure that your python version is gre
 │   
 ├── test
 
+/dataset
+│
+├── train
+│ ├── anger
+│ ├── disgust
+│ ├── fear
+│ ├── happiness
+│ ├── sadness
+│ ├── surprise
+│ └── neutral
+├── val
+├── test
+
 ## Train and Test
 
 When everything is ready, run it in the corresponding "train.py" folder, then the corresponding confusion matrix and weight files will be generated in the checkpoints, and then test it in the "test.py" file.
