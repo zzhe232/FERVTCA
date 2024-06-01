@@ -3,7 +3,7 @@ This is a code implementation of ZIYU ZHENG's Face Emotion Recognition thesis.We
 
 ## Installation
 
-To run this project, you first need to make sure that your python version is greater than or equal to 10.0.0, and that your pytorch version is greater than or equal to 2.0.First you need to create two folders called checkpoints and datasests.These two folders hold the trained model and the dataset respectively.For the dataset,you can use data.py to split datasets, you can find it at www.kaggle.com/datasets/shuvoalok/raf-db-dataset  https://www.kaggle.com/datasets/tom99763/testtt. For the datasets, you need to divide them into three subfolders named train,val,test.In each subfolder it needs to be divided into 7 smaller folders to load images of different emotions.The framework is as follows
+To run this project, you first need to make sure that your python version is greater than or equal to 10.0.0, and that your pytorch version is greater than or equal to 2.0.First you need to create two folders called checkpoints and datasests.These two folders hold the trained model and the dataset respectively. For the dataset,you can use data.py to split datasets and you need to divide them into three subfolders named train,val,test.In each subfolder it needs to be divided into 7 smaller folders to load images of different emotions.The framework is as follows.The weights for the different datasets are available at this link: https://drive.google.com/file/d/1FF43XreXZwPEOb0wBHXS9-gsG2oWuV-T/view?usp=sharing
 
 ```
 /dataset
@@ -19,13 +19,13 @@ To run this project, you first need to make sure that your python version is gre
 ├── val
 ├── test
 ```
-## data source
+## Data Source
 
 | dataset | website |
 |:-----:|:-------|
 | RAFDB | www.kaggle.com/datasets/shuvoalok/raf-db-dataset  |
 | KDEF | https://www.kaggle.com/datasets/tom99763/testtt |
-| CK+ | https://www.kaggle.com/datasets/shuvoalok/ck-datase) | 
+| CK+ | https://www.kaggle.com/datasets/shuvoalok/ck-datase | 
 | SFEW | https://www.kaggle.com/datasets/inumomizi/sfew20?select=Val_Aligned_Faces_new | 
 
 
